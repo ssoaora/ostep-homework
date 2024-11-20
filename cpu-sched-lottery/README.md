@@ -4,7 +4,7 @@
 This program, lottery.py, allows you to see how a lottery scheduler
 works. As always, there are two steps to running the program. First, run
 without the -c flag: this shows you what problem to solve without
-revealing the answers. 
+revealing the answers.
 
 ```sh
 prompt> ./lottery.py -j 2 -s 0
@@ -35,7 +35,7 @@ which you will need to determine what the lottery scheduler will do. The
 random numbers are chosen to be between 0 and a large number; thus, you'll
 have to use the modulo operator to compute the lottery winner (i.e., winner
 should equal this random number modulo the total number of tickets in the
-system). 
+system).
 
 Running with -c shows exactly what you are supposed to calculate:
 
@@ -127,4 +127,3 @@ Options:
   -c, --compute
       compute answers for me
 ```
-
